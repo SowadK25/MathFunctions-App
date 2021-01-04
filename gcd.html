@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCD Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="app-gcd">
+        <h1>GCD Calculator</h1>
+        <p>The GCD calculator computes the greatest common divisor of two or more integers.
+            Enter each integer separated by commas. For example, to calculate gcd(2,4,8), Enter
+            2,4,8 in the field below.
+        </p>
+        <form class="gcd-form" action="">
+            <input type="text" class="user-input" required>
+            <div class="buttons">
+                <button class="user-button" type="submit">
+                    <span>CALCULATE GCD</span>
+                </button>
+                <button class="clear-button" type="submit">
+                    <span>CLEAR</span>
+                </button>
+            </div>
+        </form>
+        <div class="display-gcd">
+            <h2 class="result"></h2>
+        </div>
+        <a href="index.html" class="home-button">
+            <span>Back to Home</span>
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/gcd.js"></script>
+</body>
+</html>

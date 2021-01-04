@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PF Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="app-gcd">
+        <h1>PF Calculator</h1>
+        <p>The PF (Prime Factorization) calculator will take in any positive integer and calculate
+            it's prime factorization. Enter a positve integer in the field below to find its prime factorization.
+            (Do not enter a number longer than 12 digits)
+        </p>
+        <form class="gcd-form" action="">
+            <input type="text" class="user-input" required>
+            <div class="buttons">
+                <button class="user-button" type="submit">
+                    <span>CALCULATE PF</span>
+                </button>
+                <button class="clear-button" type="submit">
+                    <span>CLEAR</span>
+                </button>
+            </div>
+        </form>
+        <div class="display-pf">
+            <h2 class="result-list"></h2>
+            <h2 class="result-exp"></h2>
+        </div>
+        <a href="index.html" class="home-button">
+            <span>Back to Home</span>
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/pf.js"></script>
+</body>
+</html>

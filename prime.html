@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime or Composite?</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="app-gcd">
+        <h1>Is it Prime or Composite?</h1>
+        <p>This calculator will find out whether a number is prime or composite. If composite, it will
+            give all of its factors. Enter an integer in the field below to determine if it's prime/composite.
+            (Do not enter a number longer than 12 digits)
+        </p>
+        <form class="gcd-form" action="">
+            <input type="text" class="user-input" required>
+            <div class="buttons">
+                <button class="user-button" type="submit">
+                    <span>CALCULATE</span>
+                </button>
+                <button class="clear-button" type="submit">
+                    <span>CLEAR</span>
+                </button>
+            </div>
+        </form>
+        <div class="display-prime">
+            <h2 class="result-choice"></h2>
+            <h2 class="result-factors"></h2>
+        </div>
+        <a href="index.html" class="home-button">
+            <span>Back to Home</span>
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/prime.js"></script>
+</body>
+</html>
