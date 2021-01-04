@@ -233,10 +233,17 @@ Prime Factorization page styles
 Prime/Composite page styles
 */
 
+.display-prime {
+  width: 50vw;
+}
 .display-prime h2 {
   font-size: 30px;
 }
 
-.display-prime .result-factors {
+.display-prime .result-choice {
   margin-bottom: 0.5em;
+}
+
+.display-prime .result-factors {
+  word-wrap: break-word;
 }
