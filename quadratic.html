@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Formula Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="app-gcd">
+        <h1>Quadratic Formula Calculator</h1>
+        <p>The quadratic formua calculator will take the values for a, b, and c, and solve the equation ax<sup>2</sup> + bx + c = 0.
+           This calculator will also display imaginary values if present.
+           Only enter real numbers in the fields below.
+        </p>
+        <form class="gcd-form" action="">
+            <div class="inputs">
+                <input type="text" class="user-input-a" placeholder="a" required>
+                <input type="text" class="user-input-b" placeholder="b" required>
+                <input type="text" class="user-input-c" placeholder="c" required>
+            </div>
+            <div class="buttons">
+                <button class="user-button" type="submit">
+                    <span>SOLVE QUADRATIC</span>
+                </button>
+                <button class="clear-button" type="submit">
+                    <span>CLEAR</span>
+                </button>
+            </div>
+        </form>
+        <div class="display-quad">
+            <h2></h2>
+        </div>
+        <a href="index.html" class="home-button">
+            <span>Back to Home</span>
+        </a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/8.1.1/math.js" integrity="sha512-OFr0yNTrn4TBOCW8hAkqVRjN45OYD4C3Zv3JA+/UFDW7rEjt7RV89OfUinLg/9GzHbUWYq1+jXzgVV/UsZWJHQ==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/quadratic.js"></script>
+</body>
+</html>

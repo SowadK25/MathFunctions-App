@@ -247,3 +247,21 @@ Prime/Composite page styles
 .display-prime .result-factors {
   word-wrap: break-word;
 }
+
+/*
+Quadratic Formula page styles 
+*/
+
+.app-gcd .gcd-form .inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gcd-form .user-input-a,
+.gcd-form .user-input-b,
+.gcd-form .user-input-c {
+  width: 6em;
+  margin-right: 1.5em;
+  margin-bottom: 2em;
+}
